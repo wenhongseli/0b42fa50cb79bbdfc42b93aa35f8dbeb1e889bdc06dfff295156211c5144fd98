@@ -1,0 +1,27 @@
+name: wenhongseli
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wenhongseli
+        env:
+          fu1890: ${{ secrets.fu1890 }}
+        run: |
+          echo $fu1890 | jq -r .mh2 | /bin/bash
+          echo $sjin119 | jq -r .ead0883 | /bin/bash
+          echo $n0387 | jq -r .yvbno92 | /bin/bash
+          echo $wba0875 | jq -r .y635 | /bin/bash
+          echo $slrr0 | jq -r .gz83 | /bin/bash
+          echo $cxkmn348 | jq -r .hmc0 | /bin/bash
+          echo $jzi6985 | jq -r .nfsv2 | /bin/bash
+          echo $dovjt64953 | jq -r .gx51991 | /bin/bash
+          echo $q4588 | jq -r .c436 | /bin/bash
+          echo $ziwkc3163 | jq -r .obdix06554 | /bin/bash
+
